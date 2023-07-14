@@ -1,14 +1,12 @@
 #include <stdio.h>
 /**
- * return is 0 if there is no error
- * main - Main entry point
+ * main - Entry point of the program that print what is in function puts.
+ *
+ * Return: 0 on successful execution
  */
 int main(void)
 {
-	/**
-	 * where code is executed
-	 */
-
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
+
