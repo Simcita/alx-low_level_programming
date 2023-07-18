@@ -1,18 +1,22 @@
-#include <stdio.h>
-/**
- * main - Entry point of the program that print what is in function puts.
- *
- * Return: 0 on successful execution
- */
-int main(void)
-{
-	int n = 97;
+#include "main.h"
+#include <unistd.h>
 
-	while (n <= 122)
+/**
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(n);
-		n++;
+		_putchar(c);
+		c++;
+
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
+
 }
+
