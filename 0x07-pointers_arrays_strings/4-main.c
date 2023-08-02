@@ -16,4 +16,7 @@ int main(void)
     printf("%s\n", t);
     return (0);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae85c8191d2cf97cc69d3d5120e8840218d4735b
